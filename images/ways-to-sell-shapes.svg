@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="278.542" height="609.187" viewBox="0 0 278.542 609.187">
+  <g id="Ways_to_Sell" data-name="Ways to Sell" transform="translate(2015.943 -187.969) rotate(90)">
+    <g id="Group_53" data-name="Group 53" transform="translate(188.97 1737.402)">
+      <g id="Group_42" data-name="Group 42" transform="translate(463.267 16.645)">
+        <g id="Both_Services_button" data-name="Both Services button" transform="translate(0)">
+          <g id="Group_55" data-name="Group 55" transform="translate(0)">
+            <path id="Polygon_3" data-name="Polygon 3" d="M122.626,0,245.253,31.967H0Z" transform="translate(144.919) rotate(90)" fill="#72bf87"/>
+            <rect id="Rectangle_15" data-name="Rectangle 15" width="112.951" height="245.253" transform="translate(0)" fill="#72bf87"/>
+          </g>
+        </g>
+        <path id="Path_38" data-name="Path 38" d="M1509.861,1952.339l112.943-7.926-27.175,107.944-108.811-.242Z" transform="translate(-1482.299 -1807.397)" fill="#111213" stroke="#c4d8ca" stroke-width="1"/>
+      </g>
+      <path id="Polygon_4" data-name="Polygon 4" d="M139.271,0,278.542,31.967H0Z" transform="translate(495.235) rotate(90)" fill="#111213"/>
+      <g id="Group_43" data-name="Group 43" transform="translate(309.824 9.219)">
+        <g id="In-store_button" data-name="In-store button" transform="translate(0)">
+          <g id="Group_56" data-name="Group 56" transform="translate(0)">
+            <path id="Polygon_3-2" data-name="Polygon 3" d="M130.052,0,260.1,29.836H0Z" transform="translate(170.493) rotate(90)" fill="#72bf87"/>
+            <rect id="Rectangle_15-2" data-name="Rectangle 15" width="140.656" height="260.104" transform="translate(0)" fill="#72bf87"/>
+          </g>
+        </g>
+        <path id="Path_37" data-name="Path 37" d="M722.713,2064.25l137,.116,24.761-106.383-139.721,8.965Z" transform="translate(-719.726 -1804.809)" fill="#111213" stroke="#c4d8ca" stroke-width="1"/>
+      </g>
+      <path id="Path_59" data-name="Path 59" d="M139.271,0,278.542,31.967H0Z" transform="translate(341.791) rotate(90)" fill="#111213"/>
+      <g id="Online_button" data-name="Online button" transform="translate(156.381 5.256)">
+        <g id="Group_54" data-name="Group 54">
+          <path id="Polygon_3-3" data-name="Polygon 3" d="M133.419,0,266.839,29.836H0Z" transform="translate(170.493) rotate(90)" fill="#72bf87"/>
+          <rect id="Rectangle_15-3" data-name="Rectangle 15" width="140.656" height="266.839" fill="#72bf87"/>
+        </g>
+      </g>
+      <path id="Polygon_2" data-name="Polygon 2" d="M139.271,0,278.542,31.967H0Z" transform="translate(188.348) rotate(90)" fill="#111213"/>
+      <path id="Path_58" data-name="Path 58" d="M28.024,1.051l.34,276.12H172.317L205.087,139.2,175.033,1.118Z" transform="translate(-28.024 0.093)" fill="#111213" stroke="#72bf87" stroke-width="2"/>
+      <g id="Path_57" data-name="Path 57" transform="translate(175.107 132.137) rotate(90)" fill="#111213">
+        <path d="M0,0,140.02,31.336Z" stroke="none"/>
+        <path d="M -1.52587890625e-05 9.5367431640625e-06 L 140.0203857421875 31.33591270446777 L -1.52587890625e-05 9.5367431640625e-06 Z" stroke="none" fill="#72bf87"/>
+      </g>
+      <path id="Path_36" data-name="Path 36" d="M720.364,2062.607H860.6l22.172-98.806-140.325,11.481Z" transform="translate(-564.28 -1790.146)" fill="#111213" stroke="#c4d8ca" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

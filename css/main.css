@@ -2,10 +2,597 @@ html {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+body {
+  background-color: #1d1e20;
+}
+
+.logo {
+  width: 50%;
+}
+
 .nav {
   text-align: center;
+  width: 100%;
+}
+
+.nav div {
+  width: 100%;
+  overflow: auto;
 }
 
 .nav a {
   text-decoration: none;
+}
+
+.nav-item {
+  color: #c4d8ca;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.nav-item:hover {
+  color: #72bf87
+}
+
+hr {
+  border-color: #72bf87;
+}
+
+.banner-img {
+  width: 100%;
+  position: relative;
+}
+
+figure {
+  position: relative;
+}
+
+figcaption h1 {
+  color: #c4d8ca;
+  position: absolute;
+  right: 10%;
+  bottom: 25%;
+}
+
+figcaption h1 strong {
+  color: #72bf87;
+}
+
+figcaption p {
+  color: #72bf87;
+  font-weight: lighter;
+  position: absolute;
+  right: 10%;
+  bottom: 25%;
+}
+
+
+
+.ways-to-sell, .pricing, .cards, .security, .support, .quote, .get-started, .footer {
+  width: 100%;
+}
+
+.ways-to-sell {
+  max-width: 28em;
+}
+
+.pricing {
+  max-width: 26.5em;
+}
+
+.ways-to-sell-top {
+  width: 100%;
+}
+
+.ways-to-sell .top {
+  position: relative;
+}
+
+.ways-to-sell-heading {
+  width: 100%;
+}
+
+.ways-to-sell h2 {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  width: 100%;
+  text-align: center;
+  font-weight: lighter;
+  color: #72bf87;
+}
+
+.ways-to-sell p {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  width: 100%;
+  color: #c4d8ca;
+}
+
+.online {
+  margin-top: -1.5em;
+}
+
+.green1 {
+  width: 95%;
+}
+
+.online-background {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+}
+
+.online {
+  position: relative;
+}
+
+.online a {
+  color: #72bf87;
+  position: absolute;
+  bottom: 40%;
+  left: 7%;
+  z-index: 1;
+  text-decoration: none;
+  font-weight: lighter;
+  transform: rotate(10deg);
+}
+
+.online a:hover {
+  color: #c4d8ca;
+  font-weight: normal;
+}
+
+.online-icon {
+  position: absolute;
+  top: 16%;
+  right: 8%;
+  width: 50%;
+}
+
+.in-store {
+  margin-top: -1.25em;
+  position: relative;
+}
+
+.green2 {
+  width: 95%;
+}
+
+.in-store-background {
+  position: relative;
+  z-index: -2;
+  width: 95%;
+}
+
+.in-store-text a {
+  color: #72bf87;
+  position: absolute;
+  bottom: 40%;
+  left: 8.5%;
+  z-index: 1;
+  text-decoration: none;
+  font-weight: lighter;
+  transform: rotate(10deg);
+}
+
+.in-store-text a:hover {
+  color: #c4d8ca;
+  font-weight: normal;
+}
+
+.store-icon {
+  position: absolute;
+  top: 16%;
+  right: 8%;
+  width: 45%;
+}
+
+.both {
+  margin-top: -1.3em;
+}
+
+.green3 {
+  width: 92%;
+}
+
+.both-background {
+  position: relative;
+  z-index: -3;
+  width: 95%;
+}
+
+.both {
+  position: relative;
+}
+
+.both-text a {
+  color: #72bf87;
+  position: absolute;
+  bottom: 39%;
+  left: 16%;
+  z-index: 1;
+  text-decoration: none;
+  font-weight: lighter;
+  transform: rotate(10deg);
+}
+
+.both-text a:hover {
+  color: #c4d8ca;
+  font-weight: normal;
+}
+
+.both-icon {
+  position: absolute;
+  top: 14%;
+  right: 8%;
+  width: 40%;
+}
+
+
+
+
+.pricing {
+  width: 100%;
+  position: relative;
+}
+
+.pricing-background {
+  position: relative;
+}
+
+.pricing h2 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  text-align: center;
+  font-weight: lighter;
+  color: #72bf87;
+}
+
+.pricing-list {
+  position: absolute;
+  top: 19%;
+}
+
+.pricing-list li {
+  width: 100%;
+  color: #1D1E20;
+  text-decoration: none;
+}
+
+.pricing-large-numbers {
+  width: 100%;
+  position: absolute;
+  top: 65%;
+}
+
+.numbers, .pricing-text {
+  width: 100%;
+}
+
+.numbers {
+  color: #72bf87;
+}
+
+.pricing-text {
+  color: #c4d8ca;
+}
+
+.btn {
+  color: #1D1E20;
+  background-color: #72bf87;
+  border: none;
+}
+
+.btn:hover {
+  color: #72bf87;
+}
+
+
+
+
+.cards {
+  width: 100%;
+}
+
+.cards .title {
+  width: 100%;
+}
+
+.cards h2 {
+  color: #c4d8ca;
+}
+
+.standout {
+  color: #72bf87;
+}
+
+.cards-list {
+  width: 100%;
+}
+
+.card-item {
+  color: #c4d8ca;
+  width: 50%;
+}
+
+
+
+.security {
+  width: 100%;
+}
+
+.security .title {
+  color: #c4d8ca;
+  width: 100%;
+}
+
+.security p {
+  color: #c4d8ca;
+  width: 81%;
+}
+
+
+
+
+.support {
+  width: 100%;
+}
+
+.support .title {
+  color: #c4d8ca;
+  width: 100%;
+}
+
+.support p {
+  color: #c4d8ca;
+  width: 84%;
+}
+
+.question a {
+  color: #72bf87;
+  font-weight: lighter;
+}
+
+
+
+
+.quote {
+  width: 100%;
+}
+
+.quote-top, .quote-bottom {
+  height: 5em;
+}
+
+.quote h2 {
+  color: #c4d8ca;
+  width: 95%;
+  font-weight: lighter;
+}
+
+.quote .stars {
+  width: 50%;
+}
+
+
+
+
+.sign-up h2 {
+  color: #c4d8ca;
+  width: 100%;
+}
+
+.sign-up p {
+  color: #72bf87;
+}
+
+
+
+
+footer {
+  width: 100%;
+}
+
+.footer-icons a {
+  width: 20%;
+}
+
+.social-icon {
+  width: 50%;
+}
+
+.footer-logo {
+  width: 100%;
+}
+
+
+
+
+.tour figure {
+  position: relative;
+}
+
+.tour figcaption {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  width: 80%;
+}
+
+.tour h1 {
+  color: #72bf87;
+  font-weight: lighter;
+}
+
+.nav-selected {
+  color: #72bf87;
+}
+
+.online-background-secondary {
+  position: relative;
+}
+
+.online-text-secondary a {
+  color: #72bf87;
+  position: absolute;
+  bottom: 30%;
+  left: 7%;
+  z-index: 1;
+  text-decoration: none;
+  font-weight: lighter;
+  transform: rotate(10deg);
+}
+
+.online-text-secondary a:hover {
+  color: #c4d8ca;
+  font-weight: normal;
+}
+
+.in-store-background-secondary {
+  position: relative;
+}
+
+.in-store-text-secondary a {
+  color: #72bf87;
+  position: absolute;
+  bottom: 39%;
+  left: 8.5%;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: lighter;
+  transform: rotate(10deg);
+}
+
+.in-store-text-secondary a:hover {
+  color: #c4d8ca;
+  font-weight: normal;
+}
+
+.both-background-secondary {
+  position: relative;
+}
+
+.both-text-secondary a {
+  color: #72bf87;
+  position: absolute;
+  bottom: 39%;
+  left: 16%;
+  z-index: 1;
+  text-decoration: none;
+  font-weight: lighter;
+  transform: rotate(10deg);
+}
+
+.both-text-secondary a:hover {
+  color: #c4d8ca;
+  font-weight: normal;
+}
+
+.search-icon img {
+  padding-left: .5em;
+}
+
+.search-section input {
+  padding-left: 1.5em;
+}
+
+.support-btn {
+  width: 100%;
+}
+
+
+
+
+.phone {
+  display: inline-flex;
+  align-self: center;
+}
+.phone img {
+  height: 1.5em;
+  width: 1.5em;
+  top: .5em;
+  position: relative;
+}
+
+.contact-info p {
+  color: #c4d8ca;
+}
+
+.email {
+  display: inline-flex;
+  align-self: center;
+}
+.email img {
+  height: 2.5em;
+  width: 2.5em;
+  top: 1em;
+  position: relative;
+}
+
+
+
+
+
+
+.sign-up-main h2 {
+  color: #c4d8ca;
+  width: 100%;
+}
+
+.sign-up-main h3 {
+  color: #72bf87;
+  font-weight: lighter;
+  width: 100%;
+}
+
+.sign-up-form {
+  background-color: #72bf87;
+  padding: 2em;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.sign-up-form label {
+  color: #1D1E20;
+}
+
+.submit-information-btn {
+  background-color: #1D1E20;
+  color: #fff;
+}
+
+.submit-information-btn:hover {
+  color: #c4d8ca;
+}
+
+.all-cards {
+  width: 100%;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .nav div {
+    width: 100%;
+    overflow: auto;
+  }
+  .nav-item {
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+
 }

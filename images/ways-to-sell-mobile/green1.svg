@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="268.484" height="173.822" viewBox="0 0 268.484 173.822">
+  <g id="Group_60" data-name="Group 60" transform="translate(272.965 -153.423) rotate(90)">
+    <g id="Group_58" data-name="Group 58" transform="translate(353.953 -450.988) rotate(90)">
+      <g id="Group_59" data-name="Group 59" transform="translate(450.312 353.581) rotate(-90)">
+        <g id="Online_button" data-name="Online button" transform="translate(156.381 5.256)">
+          <g id="Group_54" data-name="Group 54">
+            <path id="Path_64" data-name="Path 64" d="M133.419,0,266.825,29.858.214,30.68Z" transform="translate(170.493) rotate(90)" fill="#72bf87"/>
+            <rect id="Rectangle_15" data-name="Rectangle 15" width="140.656" height="266.839" fill="#72bf87"/>
+          </g>
+        </g>
+        <path id="Path_63" data-name="Path 63" d="M139.271,0,272.111,31.863V35.3L5.158,35.28V30.8" transform="translate(188.348) rotate(90)" fill="#1d1e20"/>
+        <path id="Path_68" data-name="Path 68" d="M156.729,5.256h-3.666" fill="none"/>
+      </g>
+    </g>
+    <path id="Path_36" data-name="Path 36" d="M720.364,2062.607l140.549-.868,21.858-97.938-140.325,11.481Z" transform="translate(-564.28 -1790.146)" fill="#111213" stroke="#c4d8ca" stroke-width="1"/>
+  </g>
+</svg>

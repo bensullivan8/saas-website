@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="304.791" height="726.349" viewBox="0 0 304.791 726.349">
+  <g id="Pricing" transform="translate(-1749.994 1769) rotate(-90)">
+    <g id="Group_52" data-name="Group 52">
+      <g id="Group_44" data-name="Group 44" transform="translate(1359.73 1749.994)">
+        <path id="Path_45" data-name="Path 45" d="M-63.079,0H306.27V304.791H-63.079Z" transform="translate(-254)" fill="#1d1e20"/>
+        <g id="Left_Outline" data-name="Left Outline" transform="translate(-307.001 6.258)">
+          <g id="Path_42" data-name="Path 42" transform="translate(-341.475)" fill="none">
+            <path d="M679,0V0Z" stroke="none"/>
+            <path d="M 679 0 L 679 289.6406555175781 L 679 0 Z" stroke="none" fill="#c4d8ca"/>
+          </g>
+          <path id="Path_43" data-name="Path 43" d="M288.807,0,0,.009v344.3l144.412-77.1,144.395,77.1Z" transform="translate(0 290.434) rotate(-90)" fill="none" stroke="#c4d8ca" stroke-width="5"/>
+          <path id="Path_44" data-name="Path 44" d="M0,0Z" transform="translate(251.221 145.575) rotate(-90)" fill="none" stroke="#c4d8ca" stroke-width="5"/>
+        </g>
+      </g>
+      <g id="Right_Side" data-name="Right Side" transform="translate(0 44.49)">
+        <g id="Group_45" data-name="Group 45" transform="translate(348.005)">
+          <rect id="Rectangle_14" data-name="Rectangle 14" width="347.995" height="295.02" transform="translate(1073 1710.389)" fill="#c4d8ca"/>
+          <path id="Polygon_1" data-name="Polygon 1" d="M147.51,0,295.02,78H0Z" transform="translate(996 2005.409) rotate(-90)" fill="#c4d8ca"/>
+        </g>
+        <rect id="Rectangle_21" data-name="Rectangle 21" width="126" height="284" transform="translate(1637.961 1715.939)" fill="#1d1e20"/>
+      </g>
+    </g>
+  </g>
+</svg>

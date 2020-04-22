@@ -11,9 +11,17 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
   <header role="banner" class="masthead grid grid-middle gutter">
-    <nav class="nav unit pad-t-1-2">
-      <a class="unit push-1-2 [ xs-1 s-1 m-1-2 l-1-2 ]" href="index.html"><img class="logo" src="images/shape-logo.svg" alt="Shape Logo"></a>
+    <nav role="navigation" id="nav" class="nav unit pad-t-1-2 list-group">
+      <ul>
+        <li><a class="unit push-1-2 [ xs-1 s-1 m-1-2 l-1-2 ]" href="index.html"><img role="presentation" class="logo" src="images/shape-logo.svg" alt=""></a></li>
+      </ul>
       <div class="nav-links push-1-2">
         <a class="nav-item nav-selected micro island-1-2" href="tour.html">Ways to Sell</a>
         <a class="nav-item micro island-1-2" href="#">Pricing</a>
@@ -23,24 +31,25 @@
       <hr class="push-0">
     </nav>
   </header>
-  <main class="tour">
-    <figure class="banner embed">
-      <div>
-        <img class="banner-img embed-item" src="images/macbook-ways-to-sell.jpg" alt="Macbook ways to sell">
-      </div>
-      <figcaption class="gutter text-left">
-        <h1 class="pad-t-2 push-1-2 tena">Ways to sell.</h1>
-        <p>Choose between our services<br> for online, in-store, or both.</p>
-      </figcaption>
-    </figure>
 
-    <div class="gutter center-content-horizontal">
+  <figure class="banner tour embed">
+    <div>
+      <img role="presentation" class="banner-img embed-item" src="images/macbook-ways-to-sell.jpg" alt="">
+    </div>
+    <figcaption class="gutter text-left">
+      <h1 class="pad-t-2 push-1-2 tena">Ways to sell.</h1>
+      <p>Choose between our services<br> for online, in-store, or both.</p>
+    </figcaption>
+  </figure>
+
+  <main role="main" id="main">
+    <section class="gutter center-content-horizontal">
       <div class="ways-to-sell unit push-2 relative">
 
         <div class="online center-content-horizontal pad-t-2 online-background-secondary">
           <div class="online-background center-content-horizontal">
-            <img class="green1" src="images/ways-to-sell-mobile/green1.svg" alt="Green1">
-            <img class="online-icon" src="images/ways-to-sell-mobile/online-icon.svg" alt="">
+            <img role="presentation" class="green1" src="images/ways-to-sell-mobile/green1.svg" alt="">
+            <img role="presentation" class="online-icon" src="images/ways-to-sell-mobile/online-icon.svg" alt="">
           </div>
           <div class="online-text-secondary">
             <a class="yotta" href="sign-up.html">Online</a>
@@ -49,8 +58,8 @@
 
         <div class="in-store center-content-horizontal in-store-background-secondary">
           <div class="in-store-background center-content-horizontal">
-            <img class="green2" src="images/ways-to-sell-mobile/green2.svg" alt="Green2">
-            <img class="store-icon" src="images/ways-to-sell-mobile/store-icon.svg" alt="">
+            <img role="presentation" class="green2" src="images/ways-to-sell-mobile/green2.svg" alt="">
+            <img role="presentation" class="store-icon" src="images/ways-to-sell-mobile/store-icon.svg" alt="">
           </div>
           <div class="in-store-text-secondary">
             <a class="yotta" href="sign-up.html">In-store</a>
@@ -59,8 +68,8 @@
 
         <div class="both center-content-horizontal both-background-secondary">
           <div class="both-background center-content-horizontal">
-            <img class="green3" src="images/ways-to-sell-mobile/green3.svg" alt="Green3">
-            <img class="both-icon" src="images/ways-to-sell-mobile/both-icon.svg" alt="">
+            <img role="presentation" class="green3" src="images/ways-to-sell-mobile/green3.svg" alt="">
+            <img role="presentation" class="both-icon" src="images/ways-to-sell-mobile/both-icon.svg" alt="">
           </div>
           <div class="both-text-secondary">
             <a class="yotta" href="sign-up.html">Both</a>
@@ -70,12 +79,12 @@
 
       <div class="quote">
         <div class="quote-icon center-content-horizontal">
-          <img class="push-0 quote-top" src="images/quote/quote-icon-top.svg" alt="Quote icon">
+          <img role="presentation" class="push-0 quote-top" src="images/quote/quote-icon-top.svg" alt="">
           <div class="title center-content-horizontal">
             <h2 class="push-1-4 gutter center-text">The easiest and quickest way to start your business customized for your needs.</h2>
-            <img class="stars pad-t" src="images/quote/stars.svg" alt="Stars">
+            <img class="stars pad-t" src="images/quote/stars.svg" alt="">
           </div>
-          <img class="push-0 quote-bottom" src="images/quote/quote-icon-bottom.svg" alt="Quote icon">
+          <img role="presentation" class="push-0 quote-bottom" src="images/quote/quote-icon-bottom.svg" alt="">
         </div>
       </div>
 
@@ -89,17 +98,17 @@
         </div>
         <hr>
       </div>
-
-      <footer class="push center-content-horizontal">
-        <div class="footer-icons center-content-horizontal">
-          <a href="https://twitter.com/explore"><img class="social-icon" src="images/twitter-icon.svg" alt="Twitter icon"></a>
-          <a href="https://www.facebook.com/"><img class="social-icon" src="images/facebook-icon.svg" alt="Facebook icon"></a>
-          <a href="https://www.instagram.com/"><img class="social-icon" src="images/instagram-icon.svg" alt="Instagram icon"></a>
-          <a class="footer-logo" href="tour.html"><img class="footer-logo" src="images/shape-logo.svg" alt="Shape logo"></a>
-        </div>
-      </footer>
-    </div>
+    </section>
   </main>
+
+  <footer role="contentinfo" class="push center-content-horizontal">
+    <div class="footer-icons center-content-horizontal">
+      <a href="https://twitter.com/explore"><img role="presentation" class="social-icon" src="images/twitter-icon.svg" alt=""></a>
+      <a href="https://www.facebook.com/"><img role="presentation" class="social-icon" src="images/facebook-icon.svg" alt=""></a>
+      <a href="https://www.instagram.com/"><img role="presentation" class="social-icon" src="images/instagram-icon.svg" alt=""></a>
+      <a class="footer-logo" href="tour.html"><img role="presentation" class="footer-logo" src="images/shape-logo.svg" alt=""></a>
+    </div>
+  </footer>
 
 </body>
 </html>

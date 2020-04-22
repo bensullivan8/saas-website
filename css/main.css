@@ -1,5 +1,5 @@
 html {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 body {
@@ -32,7 +32,7 @@ body {
 }
 
 .nav-item:hover {
-  color: #72bf87
+  color: #72bf87;
 }
 
 hr {
@@ -488,6 +488,7 @@ footer {
   align-self: center;
   padding-top: 1em;
 }
+
 .phone img {
   height: 1.5em;
   width: 1.5em;
@@ -504,6 +505,7 @@ footer {
   align-self: center;
   padding-left: 1em;
 }
+
 .email img {
   height: 2.5em;
   width: 2.5em;
@@ -552,6 +554,7 @@ footer {
     width: 100%;
     overflow: auto;
   }
+
   .nav-item {
     width: 25%;
     float: left;
@@ -562,13 +565,5 @@ footer {
   .footer-icons {
     width: 15em;
   }
-
-}
-
-@media only screen and (min-width: 60em) {
-
-}
-
-@media only screen and (min-width: 90em) {
 
 }

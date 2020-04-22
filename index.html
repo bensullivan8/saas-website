@@ -11,9 +11,18 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header role="banner" class="masthead grid grid-middle gutter">
-    <nav class="nav unit pad-t-1-2">
-      <a class="unit push-1-2 [ xs-1 s-1 m-1-2 l-1-2 ]" href="index.html"><img class="logo" src="images/shape-logo.svg" alt="Shape Logo"></a>
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner" class="masthead grid grid-middle">
+    <nav role="navigation" id="nav" class="nav unit pad-t-1-2 list-group gutter">
+      <ul class="push-0">
+        <li><a class="unit push-1-2 [ xs-1 s-1 m-1-2 l-1-2 ]" href="index.html"><img class="logo" src="images/shape-logo.svg" alt="Shape Logo"></a></li>
+      </ul>
+
       <div class="nav-links push-1-2">
         <a class="nav-item micro island-1-2" href="tour.html">Ways to Sell</a>
         <a class="nav-item micro island-1-2" href="#">Pricing</a>
@@ -22,15 +31,17 @@
       </div>
       <hr class="push-0">
     </nav>
-  </header>
-  <main>
-    <figure class="banner-img">
+
+    <figure class="unit banner-img">
       <img class="banner-img" src="images/macbook-pro-black.jpg" alt="Macbook Pro">
       <figcaption class="gutter text-right">
         <h1 class="pad-t-2 push-2">Changing the<br><strong class="yotta">Shape</strong><br>of business.</h1>
         <p class="milli">For all small business owners alike.</p>
       </figcaption>
     </figure>
+  </header>
+
+  <main role="main" id="main">
 
     <div class="gutter center-content-horizontal">
       <div class="ways-to-sell unit push-2 max-length">
@@ -171,7 +182,7 @@
         <hr class="push">
       </section>
 
-      <footer class="push center-content-horizontal">
+      <footer role="contentinfo" class="push center-content-horizontal">
         <div class="footer-icons center-content-horizontal">
           <a href="https://twitter.com/explore"><img class="social-icon" src="images/twitter-icon.svg" alt="Twitter icon"></a>
           <a href="https://www.facebook.com/"><img class="social-icon" src="images/facebook-icon.svg" alt="Facebook icon"></a>

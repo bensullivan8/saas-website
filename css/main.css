@@ -67,18 +67,12 @@ figcaption p {
   bottom: 25%;
 }
 
-
-
 .ways-to-sell, .pricing, .cards, .security, .support, .quote, .get-started, .footer {
   width: 100%;
 }
 
 .ways-to-sell {
   max-width: 28em;
-}
-
-.pricing {
-  max-width: 26.5em;
 }
 
 .ways-to-sell-top {
@@ -111,10 +105,6 @@ figcaption p {
   color: #c4d8ca;
 }
 
-.online {
-  margin-top: -1.5em;
-}
-
 .green1 {
   width: 95%;
 }
@@ -127,6 +117,7 @@ figcaption p {
 
 .online {
   position: relative;
+  margin-top: -1.5em;
 }
 
 .online a {
@@ -190,8 +181,9 @@ figcaption p {
   width: 45%;
 }
 
-.both {
-  margin-top: -1.3em;
+.sign-up-btn {
+  margin-left: 40%;
+  margin-right: 40%;
 }
 
 .green3 {
@@ -206,6 +198,7 @@ figcaption p {
 
 .both {
   position: relative;
+  margin-top: -1.3em;
 }
 
 .both-text a {
@@ -231,12 +224,10 @@ figcaption p {
   width: 40%;
 }
 
-
-
-
 .pricing {
   width: 100%;
   position: relative;
+  max-width: 26.5em;
 }
 
 .pricing-background {
@@ -260,7 +251,7 @@ figcaption p {
 
 .pricing-list li {
   width: 100%;
-  color: #1D1E20;
+  color: #1d1e20;
   text-decoration: none;
 }
 
@@ -283,7 +274,7 @@ figcaption p {
 }
 
 .btn {
-  color: #1D1E20;
+  color: #1d1e20;
   background-color: #72bf87;
   border: none;
 }
@@ -291,9 +282,6 @@ figcaption p {
 .btn:hover {
   color: #72bf87;
 }
-
-
-
 
 .cards {
   width: 100%;
@@ -320,8 +308,6 @@ figcaption p {
   width: 50%;
 }
 
-
-
 .security {
   width: 100%;
 }
@@ -335,9 +321,6 @@ figcaption p {
   color: #c4d8ca;
   width: 81%;
 }
-
-
-
 
 .support {
   width: 100%;
@@ -358,9 +341,6 @@ figcaption p {
   font-weight: lighter;
 }
 
-
-
-
 .quote {
   width: 100%;
 }
@@ -379,9 +359,6 @@ figcaption p {
   width: 50%;
 }
 
-
-
-
 .sign-up h2 {
   color: #c4d8ca;
   width: 100%;
@@ -390,9 +367,6 @@ figcaption p {
 .sign-up p {
   color: #72bf87;
 }
-
-
-
 
 footer {
   width: 100%;
@@ -410,17 +384,21 @@ footer {
   width: 100%;
 }
 
-
-
-
 .tour figure {
   position: relative;
 }
 
-.tour figcaption {
+.tour figcaption h1 {
   position: absolute;
-  top: 30%;
-  left: 0%;
+  top: 25%;
+  left: 8%;
+  width: 80%;
+}
+
+.tour figcaption p {
+  position: absolute;
+  top: 75%;
+  left: 8%;
   width: 80%;
 }
 
@@ -505,12 +483,10 @@ footer {
   width: 100%;
 }
 
-
-
-
 .phone {
   display: inline-flex;
   align-self: center;
+  padding-top: 1em;
 }
 .phone img {
   height: 1.5em;
@@ -526,6 +502,7 @@ footer {
 .email {
   display: inline-flex;
   align-self: center;
+  padding-left: 1em;
 }
 .email img {
   height: 2.5em;
@@ -533,11 +510,6 @@ footer {
   top: 1em;
   position: relative;
 }
-
-
-
-
-
 
 .sign-up-main h2 {
   color: #c4d8ca;
@@ -558,11 +530,11 @@ footer {
 }
 
 .sign-up-form label {
-  color: #1D1E20;
+  color: #1d1e20;
 }
 
 .submit-information-btn {
-  background-color: #1D1E20;
+  background-color: #1d1e20;
   color: #fff;
 }
 
@@ -585,6 +557,10 @@ footer {
     float: left;
     text-align: center;
     font-size: 20px;
+  }
+
+  .footer-icons {
+    width: 15em;
   }
 
 }

@@ -18,8 +18,10 @@
   </ul>
 
   <header role="banner" class="masthead grid grid-middle gutter">
-    <nav role="navigation" id="nav" class="nav unit pad-t-1-2" tabindex="0">
-      <a class="unit push-1-2 [ xs-1 s-1 m-1-2 l-1-2 ]" href="index.html"><img class="logo" src="images/shape-logo.svg" alt="Shape Logo"></a>
+    <nav role="navigation" id="nav" class="nav unit pad-t-1-2 list-group" tabindex="0">
+      <ul>
+        <li><a class="unit push-1-2 [ xs-1 s-1 m-1-2 l-1-2 ]" href="index.html"><img role="presentation" class="logo" src="images/shape-logo.svg" alt=""></a></li>
+      </ul>
       <div class="nav-links push-1-2">
         <a class="nav-item micro island-1-2" href="tour.html">Ways to Sell</a>
         <a class="nav-item micro island-1-2" href="#">Pricing</a>
@@ -28,7 +30,7 @@
       </div>
       <hr class="push-2">
     </nav>
-    <div class="embed embed-4by3 hidden">
+    <div class="unit embed embed-4by3 hidden">
       <img role="presentation" class="banner-img embed-item" src="images/macbook-pro-black.jpg" alt="Macbook Pro">
     </div>
   </header>
@@ -42,7 +44,7 @@
         <h2 class="push-2 center-content-horizontal" >You know you want to.</h2>
 
         <div class="sign-up-form push-2">
-          <form class="push" method="POST" action="#">
+          <form class="push" method="POST" action="https://formspree.io/sull0249@algonquinlive.com">
             <div class="push">
               <label for="name">Name</label>
               <input id="name" name="name" required>
@@ -58,7 +60,8 @@
             <div class="push">
               <label for="service">Subscription service</label>
               <select id="service" name="service" required>
-                <option value="">Online</option>
+                <option value="">Select</option>
+                <option>Online</option>
                 <option>In-store</option>
                 <option>Both</option>
               </select>
@@ -68,7 +71,7 @@
               <textarea id="details" name="message" required></textarea>
             </div>
             <div class="center-content-horizontal">
-              <button class="btn submit-information-btn mega" type="submit">Submit Information</button>
+              <a class="btn submit-information-btn mega" type="submit">Submit Information</a>
             </div>
           </form>
         </div>
@@ -85,7 +88,6 @@
       <a class="footer-logo" href="tour.html"><img class="footer-logo" src="images/shape-logo.svg" alt="Shape logo"></a>
     </div>
   </footer>
-
 
 </body>
 </html>

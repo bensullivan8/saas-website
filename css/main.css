@@ -186,6 +186,7 @@ figcaption p {
   margin-right: 40%;
 }
 
+
 .green3 {
   width: 92%;
 }
@@ -548,6 +549,17 @@ footer {
   width: 100%;
 }
 
+table {
+  color: #72bf87;
+  outline-color: #c4d8ca;
+}
+
+table td, tfoot {
+  color: #c4d8ca;
+}
+
+}
+
 @media only screen and (min-width: 38em) {
 
   .nav div {
@@ -563,6 +575,11 @@ footer {
 
   .footer-icons {
     width: 15em;
+  }
+
+  .sign-up-sign-up-btn {
+    margin-left: 40%;
+    margin-right: 40%;
   }
 
 }
